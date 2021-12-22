@@ -1,0 +1,691 @@
+.container-sucursales {
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px 20px 50px 20px;
+    }
+
+    /*CONCEPCION*/
+
+    .flex-container-ccp {
+        display: flex;
+        flex-wrap: wrap;
+
+        .div-textC {
+            width: 100%;
+            height: auto;
+            text-align: justify;
+            font-size: 20px;
+            color: white;
+            margin: 1px 20px 1px 20px;
+
+            h2 {
+                color: #00d07a;
+                font-weight: 700;
+                font-style: italic;
+
+            }
+
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-weight: 300;
+            }
+
+            ul li i {
+                color: #00d07a;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .div-mapsC {
+        width: 100%;
+        height: auto;
+        background: #00d07a;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px 10px 5px 10px;
+        margin: 20px;
+    }
+
+}
+
+
+/*SANTIAGO*/
+.flex-container-stgo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+
+    .div-textS {
+        width: 100%;
+        height: auto;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+        margin: 1px 20px 1px 20px;
+
+        h2 {
+            color: #00d07a;
+            font-weight: 700;
+            font-style: italic;
+            margin-top: 50px;
+        }
+
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+
+        ul li i {
+            color: #00d07a;
+            margin-right: 5px;
+        }
+    }
+
+    .div-mapsS {
+        width: 100%;
+        height: auto;
+        background: #00d07a;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px 10px 5px 10px;
+        margin: 20px;
+    }
+
+}
+
+/*VINA DEL MAR*/
+.flex-container-vina {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+
+    .div-textV {
+        width: 100%;
+        height: auto;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+        margin: 1px 20px 1px 20px;
+
+        h2 {
+            color: #00d07a;
+            font-weight: 700;
+            font-style: italic;
+            margin-top: 50px;
+        }
+
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+
+        ul li i {
+            color: #00d07a;
+            margin-right: 5px;
+        }
+    }
+
+    .div-mapsV {
+        width: 100%;
+        height: auto;
+        background: #00d07a;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px 10px 5px 10px;
+        margin: 20px 20px 70px 20px;
+    }
+
+}
+
+
+
+
+
+/*MEDIA QUERIES 767PX*/
+@media(min-width: 767px) {
+    .container-sucursales {
+        h1 {
+            margin: 20px 45px 0px 45px;
+        }
+
+        /*CONCEPCION*/
+
+        .flex-container-ccp {
+            display: flex;
+            flex-wrap: wrap;
+
+            .div-textC {
+                width: 100%;
+                height: auto;
+                margin: 1px 50px 1px 50px;
+
+            }
+        }
+
+        .div-mapsC {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 50px 20px 50px;
+        }
+
+    }
+
+
+    /*SANTIAGO*/
+    .flex-container-stgo {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1px;
+
+        .div-textS {
+            width: 100%;
+            height: auto;
+            margin: 1px 50px 1px 50px;
+
+            h2 {
+                margin-top: 50px;
+            }
+
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+
+            ul li i {
+                margin-right: 5px;
+            }
+        }
+
+        .div-mapsS {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 50px 20px 50px;
+        }
+
+    }
+
+    /*VINA DEL MAR*/
+    .flex-container-vina {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1px;
+
+        .div-textV {
+            width: 100%;
+            height: auto;
+            margin: 1px 50px 1px 50px;
+
+            h2 {
+                margin-top: 50px;
+            }
+
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+
+            ul li i {
+                margin-right: 5px;
+            }
+        }
+
+        .div-mapsV {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 50px 70px 50px;
+        }
+
+    }
+}
+
+/*MEDIA QUERIES 992PX*/
+@media(min-width: 992px) {
+    .container-sucursales {
+        h1 {
+            margin: 20px 45px 0px 45px;
+        }
+
+        /*CONCEPCION*/
+
+        .flex-container-ccp {
+            display: flex;
+            flex-wrap: wrap;
+
+            .div-textC {
+                width: 100%;
+                height: auto;
+                margin: 1px 90px 1px 90px;
+
+            }
+        }
+
+        .div-mapsC {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 90px 20px 90px;
+        }
+
+    }
+
+
+    /*SANTIAGO*/
+    .flex-container-stgo {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1px;
+
+        .div-textS {
+            width: 100%;
+            height: auto;
+            margin: 1px 90px 1px 90px;
+
+            h2 {
+                margin-top: 50px;
+            }
+
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+
+            ul li i {
+                margin-right: 5px;
+            }
+        }
+
+        .div-mapsS {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 90px 20px 90px;
+        }
+
+    }
+
+    /*VINA DEL MAR*/
+    .flex-container-vina {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1px;
+
+        .div-textV {
+            width: 100%;
+            height: auto;
+            margin: 1px 90px 1px 90px;
+
+            h2 {
+                margin-top: 50px;
+            }
+
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+
+            ul li i {
+                margin-right: 5px;
+            }
+        }
+
+        .div-mapsV {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 90px 70px 90px;
+        }
+
+    }
+}
+
+/*MEDIA QUERIES 992PX*/
+@media(min-width: 1280px) {
+    .container-sucursales {
+        h1 {
+            margin: 20px 45px 0px 45px;
+        }
+
+        /*CONCEPCION*/
+
+        .flex-container-ccp {
+            display: flex;
+            flex-wrap: wrap;
+
+            .div-textC {
+                width: 100%;
+                height: auto;
+                margin: 1px 150px 1px 150px;
+
+            }
+        }
+
+        .div-mapsC {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 150px 20px 150px;
+        }
+
+    }
+
+
+    /*SANTIAGO*/
+    .flex-container-stgo {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1px;
+
+        .div-textS {
+            width: 100%;
+            height: auto;
+            margin: 1px 150px 1px 150px;
+
+            h2 {
+                margin-top: 50px;
+            }
+
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+
+            ul li i {
+                margin-right: 5px;
+            }
+        }
+
+        .div-mapsS {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 150px 20px 150px;
+        }
+
+    }
+
+    /*VINA DEL MAR*/
+    .flex-container-vina {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1px;
+
+        .div-textV {
+            width: 100%;
+            height: auto;
+            margin: 1px 150px 1px 150px;
+
+            h2 {
+                margin-top: 50px;
+            }
+
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+
+            ul li i {
+                margin-right: 5px;
+            }
+        }
+
+        .div-mapsV {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            padding: 10px 10px 5px 10px;
+            margin: 20px 150px 70px 150px;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PARA WEAS MAS GRANDES LA GUARDO
+
+
+
+.container-sucursales {
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .flex-container-ccp {
+        display: flex;
+        margin: 8em;
+
+        .div-textC {
+            width: 50%;
+            height: auto;
+            text-align: justify;
+            font-size: 20px;
+            color: white;
+
+            h2 {
+                color: #00d07a;
+                font-weight: 700;
+                font-style: italic;
+            }
+
+            ul li i {
+                color: #00d07a;
+            }
+        }
+    }
+
+    .div-mapsC {
+        width: 75%;
+        height: auto;
+        background: #00d07a;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px 5px 0px 5px;
+        margin: 30px;
+    }
+
+}
+
+.flex-container-stgo {
+    display: flex;
+    margin: 8em;
+
+    .div-textS {
+        width: 50%;
+        height: auto;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+
+        h2 {
+            color: #00d07a;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        ul li i {
+            color: #00d07a;
+        }
+    }
+
+    .div-mapsS {
+        width: 75%;
+        height: auto;
+        background: #00d07a;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px 5px 0px 5px;
+        margin: 30px;
+    }
+
+}
+
+.flex-container-vina {
+    display: flex;
+    margin: 8em;
+
+    .div-textV {
+        width: 50%;
+        height: auto;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+
+        h2 {
+            color: #00d07a;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        ul li i {
+            color: #00d07a;
+        }
+    }
+
+    .div-mapsV {
+        width: 75%;
+        height: auto;
+        background: #00d07a;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px 5px 0px 5px;
+        margin: 30px;
+    }
+
+}
+*/

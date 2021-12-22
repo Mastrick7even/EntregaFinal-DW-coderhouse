@@ -1,0 +1,383 @@
+/*=====================================================IMPORTS====================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap');
+@import "sobrenosotros";
+@import "servicios";
+@import "sucursales";
+@import "contactos";
+
+/*===================================================== VARIABLES =================================================*/
+
+/*======== RESET ==========*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*===================================================== index.html ==================================================*/
+/*===================================================== index.html ==================================================*/
+/*===================================================== index.html ==================================================*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #24262b;
+    color: white;
+}
+
+/*==================================================== MOBILE FIRST =================================================*/
+
+
+
+/*==================================================== NAVBAR ======================================================*/
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+
+    div {
+        img {
+            display: flex;
+            height: 100px;
+            width: 100%;
+        }
+    }
+}
+
+
+.iconHamburguesa {
+    font-size: 35px;
+    color: #00d07a;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    height: 0vh auto;
+    top: 100px;
+    background: #181818;
+    text-align: center;
+    z-index: 1;
+
+    li {
+        display: none;
+        line-height: 30px;
+        margin: 50px 0;
+
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+
+            &.active1,
+            &:hover {
+                color: #00d07a;
+                transition: .3s;
+            }
+        }
+    }
+}
+
+
+
+
+/*===================================MENU HAMBURGUESA==============================================*/
+#check {
+    display: none;
+}
+
+#check:checked~.nav-menu {
+    height: auto;
+}
+
+#check:checked~.nav-menu li {
+    display: block;
+}
+
+
+/*===================================== SECTION // Botones y txt nav=================================*/
+
+
+.titulo-Principal {
+    h1 {
+        color: white;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h3 {
+        color: white;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+
+
+.txtNav {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../media/img/wp5559316.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: auto;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+
+    .titulo-principal {
+        h1 {
+            color: white;
+            font-weight: 700;
+            text-align: center;
+            font-size: 50px;
+            padding-top: 40px;
+        }
+
+        h3 {
+            color: white;
+            font-style: italic;
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+    }
+
+    .titulo-secundario h2 {
+        font-size: 30px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+
+    }
+
+    p {
+        text-align: justify;
+        margin: 10px 20px 10px 20px;
+        padding: 10px;
+        background-color: #24262b;
+        border-radius: 5px;
+        font-size: 20px;
+
+    }
+
+    span {
+        color: #00d07a;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+section#pre-proceso {
+    div {
+        h2 {
+            text-align: center;
+            margin: 80px 20px 40px 20px;
+            font-size: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+
+
+
+/*===================================================== FOOTER PAGINA ==================================================*/
+/*===================================================== FOOTER PAGINA ==================================================*/
+/*===================================================== FOOTER PAGINA ==================================================*/
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #181818;
+    padding: 30px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #00d07a;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #00d07a;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+
+/* =========================  RESPONSIVE 1 ========================== */
+
+@media screen and (min-width: 767px) {
+    .titulo-secundario {
+        h2 {
+            padding-top: 160px;
+        }
+    }
+}
+
+/*========================== RESPONSIVE 2 ===========================*/
+@media screen and (min-width: 992px) {
+    .titulo-secundario {
+        h2 {
+            padding-top: 140px;
+        }
+
+        p {
+            text-align: justify;
+            margin: 10px 200px 10px 200px;
+        }
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .titulo-secundario {
+
+
+        p {
+            text-align: justify;
+            margin: 10px 300px 10px 300px;
+        }
+    }
+}
+
+
+
+
+/*=========================== RESPONSIVE NAVBAR ==========================*/
+
+@media screen and (min-width:1140px) {
+
+    nav {
+        height: 100px;
+        background-color: #181818;
+
+        .logoHt-verde {
+            margin-left: 50px;
+            position: sticky;
+            width: auto;
+        }
+    }
+
+    .iconHamburguesa {
+        display: none;
+    }
+
+    .nav-menu {
+        position: relative;
+        height: 100px;
+        top: 0px;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+
+    .nav-menu li a {
+        font-size: 20px;
+    }
+
+    .tvtNav h1 {
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+
+    .tvtNav h2 {
+        font-size: 20px;
+    }
+}
+
+/*responsive del footer*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
